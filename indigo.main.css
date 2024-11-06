@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'BauhausStd';
+    /* Name your font family */
+    src: url('/BauhausStd-Medium/BauhausStd-Medium.ttf');
+    /* Locate the .ttf file within your directory*/
+
+    
+}
+
+
+
+/* -------------------- Navbar --------------------- */
+
+nav {
+    background-color: #d1efff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin:0px 14vw ;
+}
+
+.nav_left {
+    img {
+        width: 13vh;
+        margin: 22px;
+    }
+}
+
+#nav_mid {
+    display: flex;
+}
+
+#nav_right {
+
+}
+
+
+.nav_menu {
+
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 1.2vh;
+        margin: 0px 0px 0px 1.3vh;
+    }
+
+    margin:0px 1vw;
+}
+
+
+
+
+/* --------------Section--------------------- */
+
+
+.heading{
+    font-family: "BauhausStd";
+    font-size: 4.5vh;
+}
+
+section {
+    /* Default Margins */
+    margin: 0px 14vw;
+}
+
+
+/* _______ search_menu_main ______________ */
+
+.search_menu_main_top{
+display: flex;
+}
+
+.book_flight{
+    color: rgb(255, 255, 255);
+    background-color: #009;
+    padding: 20px 0px;
+    width: 676.875px;
+    border-radius: 13px 0px 0px 0px;
+}
+.book_hotel{
+    background-color: rgb(226, 226, 226);
+    padding: 20px 0px;
+    width: 676.875px;
+    border-radius: 0px 13px 0px 0px;
+}
